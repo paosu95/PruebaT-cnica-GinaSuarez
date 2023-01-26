@@ -35,7 +35,7 @@ export default function Buscador() {
             width="100px"
             color="red"
             value={busqueda}
-            placeholder="Ingrese su login"
+            placeholder="Enter your login"
             onChange={handleChange}
           />
           <button className={style.botonBuscador}>

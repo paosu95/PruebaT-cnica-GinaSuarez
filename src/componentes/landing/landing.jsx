@@ -11,11 +11,11 @@ export default function Landing() {
         alt="logo_Dvp"
       />
       <div className={style.contenedorTitulo}>
-        <h1 className={style.tituloLanding}>Bienvenido</h1>
+        <h1 className={style.tituloLanding}>Welcome</h1>
       </div>
 
       <p className={style.parrafoLanding}>
-        Conozca la información de su perfil
+      Know your profile information
       </p>
       <Buscador />
     </div>
