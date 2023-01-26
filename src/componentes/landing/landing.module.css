@@ -1,0 +1,27 @@
+.contenedorLanding {
+  min-height: 100vh;
+  background-color: rgba(245, 245, 220, 0.06);
+}
+.imagenEmpresa {
+  width: 300px;
+  height: 150px;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.contenedorTitulo {
+  display: flex;
+  justify-content: center;
+}
+.tituloLanding {
+  font-family: ();
+  color: rgb(15, 15, 121);
+  margin-top: -50px;
+  font-family: 'Lato', sans-serif;
+  font-size: 45px;
+}
+.parrafoLanding {
+  margin-left: 60px;
+  font-size: 30px;
+  margin-top: 50px;
+  font-family: 'Lato', sans-serif;
+}

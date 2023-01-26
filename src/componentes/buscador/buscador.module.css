@@ -1,0 +1,60 @@
+.input {
+  display: flex;
+  justify-content: center;
+}
+.inputBuscador {
+  margin-top: 20px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  height: 40px;
+  width: 250px;
+  color: grey;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  padding-left: 10px;
+}
+.botonBuscador {
+  margin-top: 20px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-left: -2px;
+  background-color: rgb(20, 198, 198);
+  cursor: pointer;
+  width: 40px;
+}
+.contenedorTabla {
+  margin-top: 30px;
+  margin-left: 20px;
+  font-family: 'Lato', sans-serif;
+}
+.contenedorTabla table {
+  background-color: white;
+  border-collapse: collapse;
+  margin: 0 auto;
+  border: solid 1px white;
+}
+
+.contenedorTabla thead {
+  background-color: rgba(9, 9, 157, 0.848);
+  color: white;
+  border-bottom: 1px solid #404040;
+  border: solid 1px white;
+}
+.contenedorTabla thead th {
+  padding: 10px 0;
+  border: solid 1px white;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.contenedorTabla td {
+  width: 200px;
+  height: 60px;
+  padding: 5px;
+  border: solid 1px white;
+  background-color: rgba(128, 128, 128, 0.178);
+  padding-left: 10px;
+}
